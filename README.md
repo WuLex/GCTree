@@ -47,3 +47,57 @@ JVM 垃圾收集技术研究
            会对其生存环境构成影响，为一个对象设置虚引用关联的唯一目的就是希望能在这个对象
            被收集器回收的时候收到一个系统通知。
 </pre>
+
+##垃圾收集算法
+
+<pre>
+标记清除算法
+</pre>
+
+<pre>
+复制算法
+</pre>
+
+<pre>
+标记压缩算法
+</pre>
+
+![](https://i.imgur.com/draRR1V.png)
+
+<pre>
+分代收集算法
+</pre>
+
+##垃圾收集器
+
+<pre>
+Serial 串行收集器
+</pre>
+
+<pre>
+ParNew 并行收集器
+</pre>
+
+<pre>
+Parallel Scavenge 并行清除收集器
+</pre>
+
+<pre>
+Serial Old收集器
+</pre>
+
+<pre>
+Parallel Old收集器
+</pre>
+
+<pre>
+CMS收集器
+</pre>
+
+<pre>
+G1 Garbage First收集器
+</pre>
+
+<pre>
+JVM内存分配策略
+</pre>
