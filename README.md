@@ -243,5 +243,13 @@ G1 Garbage First收集器
 </pre>
 
 <pre>
+触发GC的时机：
+
+      1）年轻代或者老年代慢了，JAVA虚拟机无法再为新的对象分配内存空间了，那么Java虚拟机就
+         会触发一次GC去回收掉那些已经不会再被使用到的对象。
+      2）手动调用System.gc()方法，通常这样会触发一次Full GC以及至少一次Minor GC.
+</pre>
+
+<pre>
 JVM内存分配策略
 </pre>
