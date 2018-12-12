@@ -253,3 +253,9 @@ G1 Garbage First收集器
 <pre>
 JVM内存分配策略
 </pre>
+
+<pre>
+GC Roots循环引用
+ 
+      可达性分析算法
+</pre>
