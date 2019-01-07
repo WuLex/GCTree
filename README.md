@@ -259,3 +259,18 @@ GC Roots循环引用
  
       可达性分析算法
 </pre>
+
+<pre>
+FullGC的原因猜测：
+
+      1）CMSGC失败导致
+      2）大对象分配时，空间不够导致
+      3）内存碎片导致
+
+      设置打印FullGC的原因配置
+          jinfo -flag +PrintGCReason
+
+      总结：
+          1，问题可能出现的原因，要尽快动手去验证，不要只停留在思考的层面;
+          2，出现fullgc的时候，可以通过加上PrintGCReason，查看具体GC原因。
+</pre>
